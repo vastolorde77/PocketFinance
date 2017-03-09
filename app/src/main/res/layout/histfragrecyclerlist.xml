@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:clickable="false"
+    android:animateLayoutChanges="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ID_hist"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/buttonTextColor"
+            android:background="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:paddingTop="0dp"
+            android:padding="5dp"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Date_hist"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:textColor="@color/buttonTextColor"
+                android:padding="5dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/value_hist"
+                android:textAlignment="textEnd"
+                android:background="@color/cast_intro_overlay_background_color"
+                android:textColor="#ff4c64"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteshist"
+            android:background="@color/cast_intro_overlay_background_color"
+            android:textColor="@color/buttonTextColor"
+            android:padding="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

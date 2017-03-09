@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Main" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Transaction Map" />
+
+
+        <item
+            android:id="@+id/nav_login"
+
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_logout"
+            android:visible="false"
+
+            android:title="Log Out" />
+        <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        android:title="Get Pro version" />
+
+
+    </group>
+
+
+
+</menu>

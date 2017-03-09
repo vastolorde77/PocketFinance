@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "860716400306",
+    "firebase_url": "https://test-38be8.firebaseio.com",
+    "project_id": "test-38be8",
+    "storage_bucket": "test-38be8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860716400306:android:7138161d848fbc8f",
+        "android_client_info": {
+          "package_name": "com.example.muammar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860716400306-750ph6qlo3032tals6vvk0ttq1a9l0sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf1iK4dzz8aEA3qsbTIYEbc-zhXMZetOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

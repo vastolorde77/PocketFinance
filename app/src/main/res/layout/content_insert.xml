@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.muammar.myapplication.Insert"
+tools:showIn="@layout/activity_insert">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Scrl"
+        android:layout_marginTop="50dp">
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:layout_weight="1"
+        android:stretchColumns="*"
+        android:weightSum="2"
+        android:layout_height="match_parent">
+        <TableRow
+            android:id="@+id/tableRowMem"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="0dip"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+
+                android:text="Home Supplies"
+                android:background="#eec77b"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/buttonB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Automotive needs"
+                android:background="#d14e4e"
+                android:textColor="#ffffff" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="175dp"
+                android:text="Electronic Payments"
+                android:background="#4aa9cf"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+
+                android:text="Food"
+                android:background="#4ad885"
+                android:textColor="#ffffff" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonE"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="175dp"
+                android:text="Others"
+                android:background="#848484"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/buttonF"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+
+                android:text="Add Budget"
+                android:background="#ace143"
+                android:textColor="#ffffff" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonG"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="175dp"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/buttonH"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+
+                android:text="D" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
